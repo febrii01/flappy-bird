@@ -29,8 +29,7 @@ birdImg.src = "bird.png";
 const pipeImg = new Image();
 pipeImg.src = "pipe.png";
 
-document.addEventListener("keydown", (e) => {
-  if (e.code === "Space") {
+canvas.addEventListener("click", () => {
     birdVelocity = -10;
   }
 });
