@@ -29,7 +29,7 @@ birdImg.src = "bird.png";
 const pipeImg = new Image();
 pipeImg.src = "pipe.png";
 
-canvas.addEventListener("click", () => {
+document.addEventListener("click", () => {
     birdVelocity = -10;
   });
 
